@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+
+# Databases
+*.db
+smart_bhopal.db
+_*.db
+
+# Uploaded media (keep the directory, ignore contents)
+uploads/*
+!uploads/.gitkeep
+
+# Env / secrets
+.env
+
+# OS / editor
+.DS_Store
+.vscode/

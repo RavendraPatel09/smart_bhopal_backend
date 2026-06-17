@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(venv/bin/python -m pytest tests/ -q)",
+      "Bash(rm -f smart_bhopal.db _*.db)",
+      "Bash(venv/bin/python -m pytest)",
+      "Bash(SEED_ON_STARTUP=0 DATABASE_URL=\"sqlite:///./_x.db\" venv/bin/python -c \"import app.main; print\\('import OK'\\)\")"
+    ]
+  }
+}
